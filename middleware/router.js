@@ -1,6 +1,6 @@
 const Router = require('koa-router');
-const searchController = require('./controllers/SearchController');
-const locationController = require('./controllers/LocationController');
+const searchController = require('../controllers/SearchController');
+const locationController = require('../controllers/LocationController');
 
 const router = new Router();
 
