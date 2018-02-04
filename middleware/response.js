@@ -1,9 +1,13 @@
-function respond(ctx, status, data, message) {
+function respond(ctx, status, data, message, meta) {
+  message = message || '';
   ctx.status = status;
-  ctx.body = {
-    message: message || '',
-    data: data
+  const response = {
+    message,
+    data,
+    meta
   };
+  if (meta) response.meta = meta;
+  ctx.body = response;
   return ctx;
 }
 

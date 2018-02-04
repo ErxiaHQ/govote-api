@@ -20,8 +20,8 @@ module.exports = {
     const { query } = ctx;
     try {
       const location = new Location();
-      const locations = await location.all(query);
-      ctx.sendJson(locations, 'Locations retrieved successfully');
+      const { locations, meta } = await location.all(query);
+      ctx.sendJson(locations, 'Locations retrieved successfully', meta);
     } catch (error) {
       ctx.abortJson(error, 'Error retrieving locations');
     }
@@ -33,7 +33,10 @@ module.exports = {
 
     const validator = joi.validate(location, locationSchema);
     if (validator.error) {
-      return ctx.abortJson(validator.error.details[0].message, 'Error validating');
+      return ctx.abortJson(
+        validator.error.details[0].message,
+        'Error validating'
+      );
     }
 
     try {
@@ -64,7 +67,10 @@ module.exports = {
     const { body } = ctx.request;
     const validator = joi.validate(body, locationSchema);
     if (validator.error) {
-      return ctx.abortJson(validator.error.details[0].message, 'Error validating');
+      return ctx.abortJson(
+        validator.error.details[0].message,
+        'Error validating'
+      );
     }
 
     try {

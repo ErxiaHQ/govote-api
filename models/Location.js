@@ -18,16 +18,19 @@ class Location {
 
   async all({ order, page, limit }) {
     order = order || 'desc';
-    page = page || 1;
-    limit = limit || 20;
+    page = +page || 1;
+    limit = +limit || 20;
 
     try {
-      return await db('locations')
-        .select('locations.*', 'states.name as state_name')
+      const locations = await db('locations')
+        .select('locations.*', 'states.name as state', 'cities.name as city')
         .orderBy('locations.id', order)
         .offset(+(page - 1) * +limit)
         .limit(+limit)
-        .leftJoin('states', 'locations.state_id', 'states.id');
+        .leftJoin('states', 'locations.state_id', 'states.id')
+        .leftJoin('cities', 'locations.city_id', 'cities.id');
+      const meta = { order, page, limit };
+      return { locations, meta };
     } catch (error) {
       console.log(error);
       throw new Error(error);
@@ -37,9 +40,11 @@ class Location {
   async find(id) {
     try {
       const [location] = await db('locations')
-        .select('*')
+        .select('locations.*', 'states.name as state', 'cities.name as city')
         .where({ id })
-        .limit(1);
+        .limit(1)
+        .leftJoin('states', 'locations.state_id', 'states.id')
+        .leftJoin('cities', 'locations.city_id', 'cities.id');
       if (!location) return {};
       Object.assign(this, location);
       return location;
@@ -79,6 +84,17 @@ class Location {
       console.log(error);
       throw new Error(error);
     }
+  }
+
+  async withOne(relationship, table) {
+    try {
+      const tableId = `${table}_id`;
+      const [result] = await db(table)
+        .where({ id: this[tableId] })
+        .limit(1);
+      if (result) this[relationship] = result;
+      return this;
+    } catch (error) {}
   }
 }
 

@@ -1,10 +1,14 @@
-const tableName = 'locations';
 const csvParser = require('csv-parse');
 const fs = require('fs');
+const db = require('../db');
 
+const tableName = 'locations';
 const locations = [];
 const filePath = './db/seeds/lagos-pvc-centres.csv';
-fs.readFile(filePath, { encoding: 'utf-8' }, parseCSV);
+
+// ==============
+// read and parse locations csv
+// ==============
 
 function parseCSV(err, csvData) {
   if (err) console.log(err);
@@ -26,8 +30,44 @@ function readCSV(err, data) {
     });
   }
 }
+// ==============
 
-exports.seed = (knex, Promise) =>
-  knex(tableName)
+// ==============
+// find cities for the locations
+// ==============
+
+async function findCity(a, b, c) {
+  console.log(a, b, c);
+  const [city] = await db('cities')
+    .select('*')
+    .where('name', 'like', `%${a}%`)
+    .orWhere('name', 'like', `%${b}%`)
+    .orWhere('name', 'like', `%${c}%`)
+    .limit(1);
+  return city;
+}
+
+async function processData(data) {
+  const processed = [];
+  for (const row of data) {
+    const a = row['area'];
+    const [b] = row['area'].split(' ');
+    const [c] = row['area'].split('/');
+    const city = await findCity(a, b, c);
+    if (city) row['city_id'] = city.id;
+    processed.push(row);
+  }
+  return processed;
+}
+// ==============
+
+// ==============
+// export seed function
+// ==============
+exports.seed = (knex, Promise) => {
+  fs.readFile(filePath, { encoding: 'utf-8' }, parseCSV);
+  return knex(tableName)
     .del()
-    .then(() => knex(tableName).insert(locations));
+    .then(() => processData(locations))
+    .then(processedLocations => knex(tableName).insert(processedLocations));
+};

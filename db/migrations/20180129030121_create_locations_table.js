@@ -17,6 +17,7 @@ exports.up = (knex, Promise) => {
       .timestamp('updatedAt')
       .defaultTo(knex.fn.now())
       .nullable();
+    table.timestamp('deletedAt').nullable();
     table.foreign('state_id').references('states.id');
   });
 };
