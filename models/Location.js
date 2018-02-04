@@ -1,18 +1,20 @@
 const db = require('../db/db');
 const _ = require('lodash');
 
+const props = [
+  'id',
+  'name',
+  'address',
+  'area',
+  'city_id',
+  'state_id',
+  'latitude',
+  'longitude'
+];
+
 class Location {
   constructor(data) {
-    data = _.pick(data, [
-      'id',
-      'name',
-      'address',
-      'area',
-      'city',
-      'state_id',
-      'latitude',
-      'longitude'
-    ]);
+    data = _.pick(data, props);
     Object.assign(this, data);
   }
 
@@ -56,7 +58,8 @@ class Location {
 
   async store() {
     try {
-      const [id] = await db('locations').insert(this);
+      const data = _.pick(this, props);
+      const [id] = await db('locations').insert(data);
       return Object.assign({ id }, this);
     } catch (error) {
       console.log(error);
@@ -66,8 +69,10 @@ class Location {
 
   async save(request) {
     try {
+      const data = _.pick(this, props);
+      data['updatedAt'] = new Date();
       return await db('locations')
-        .update(this)
+        .update(data)
         .where({ id: this.id });
     } catch (error) {
       console.log(error);

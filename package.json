@@ -21,6 +21,7 @@
     "url": "https://github.com/ErxiaHQ/govote-api"
   },
   "dependencies": {
+    "@koa/cors": "^2.2.1",
     "algoliasearch": "^3.24.9",
     "csv-parse": "^2.0.0",
     "dotenv": "^4.0.0",
