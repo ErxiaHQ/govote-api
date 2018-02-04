@@ -41,7 +41,7 @@ class Location {
     try {
       const [location] = await db('locations')
         .select('locations.*', 'states.name as state', 'cities.name as city')
-        .where({ id })
+        .where({ 'locations.id': id })
         .limit(1)
         .leftJoin('states', 'locations.state_id', 'states.id')
         .leftJoin('cities', 'locations.city_id', 'cities.id');
