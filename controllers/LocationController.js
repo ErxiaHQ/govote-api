@@ -6,7 +6,7 @@ const locationSchema = joi.object({
   name: joi.string().required(),
   address: joi.string().required(),
   area: joi.string().required(),
-  city: joi.string(),
+  city_id: joi.number().integer(),
   state_id: joi
     .number()
     .integer()
