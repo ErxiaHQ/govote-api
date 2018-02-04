@@ -20,7 +20,7 @@ router.use(async (ctx, next) => {
 // =================
 // index
 // =================
-router.get('/', ctx => (ctx.body = 'Welcome to the NG Elections Api'));
+router.get('/', ctx => (ctx.body = 'Welcome to the GoVote Api'));
 
 // =================
 // search
