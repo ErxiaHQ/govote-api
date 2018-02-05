@@ -1,11 +1,8 @@
 function respond(ctx, status, data, message, meta) {
   message = message || '';
   ctx.status = status;
-  const response = {
-    message,
-    data,
-    meta
-  };
+  const response = { message };
+  if (data) response.data = data;
   if (meta) response.meta = meta;
   ctx.body = response;
   return ctx;
