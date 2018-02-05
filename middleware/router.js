@@ -17,6 +17,18 @@ router.use(async (ctx, next) => {
   await next();
 });
 
+// temporary hack
+// don't allow post and put requests in production
+// to avoid abuse
+async function disallowRouteInProd(ctx, next) {
+  const production = process.env.NODE_ENV === 'production';
+  const method = ctx.method;
+  const error = 'Route not allowed';
+  if (production && method !== 'GET') return ctx.abortJson({}, error);
+  await next();
+}
+router.use(['/location', '/location/:id'], disallowRouteInProd);
+
 // =================
 // index
 // =================
