@@ -19,10 +19,20 @@ module.exports = {
     }
   },
 
-  async searchLocations({ query }) {
+  async searchLocations({ query, page, limit }) {
+    page = page || 1;
+    page -= 1; // algolia pagination starting from 0
+    limit = limit || 20;
     try {
-      const content = await locationIndex.search({ query, hitsPerPage: 50 });
-      return content.hits;
+      const content = await locationIndex.search({
+        query,
+        page,
+        hitsPerPage: limit
+      });
+      const locations = content.hits;
+      const total = content.nbHits;
+      const meta = { query, page, limit, total };
+      return { locations, meta };
     } catch (err) {
       console.log(err);
       throw new Error(err);
