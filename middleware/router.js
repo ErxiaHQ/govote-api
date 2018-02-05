@@ -4,6 +4,7 @@ const locationController = require('../controllers/LocationController');
 
 const router = new Router();
 
+// @todo
 // temporary hack
 // check if permitted request
 const { API_KEYS } = process.env;
@@ -17,12 +18,13 @@ router.use(async (ctx, next) => {
   await next();
 });
 
+// @todo
 // temporary hack
 // don't allow post and put requests in production
 // to avoid abuse
 async function disallowRouteInProd(ctx, next) {
   const production = process.env.NODE_ENV === 'production';
-  const method = ctx.method;
+  const { method } = ctx;
   const error = 'Route not allowed';
   if (production && method !== 'GET') return ctx.abortJson({}, error);
   await next();

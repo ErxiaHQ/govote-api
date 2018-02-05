@@ -1,10 +1,12 @@
 const csvParser = require('csv-parse');
 const fs = require('fs');
+const request = require('request-promise');
 const db = require('../db');
 
 const tableName = 'locations';
 const locations = [];
 const filePath = './db/seeds/lagos-pvc-centres.csv';
+const mapKey = process.env.GOOGLE_MAP_KEY;
 
 // ==============
 // read and parse locations csv
@@ -33,13 +35,13 @@ function readCSV(err, data) {
 // ==============
 
 // ==============
-// find cities for the locations
+// 1. find cities for the locations
+// 2. geolocation processing (address, lat, lng)
 // ==============
 
 async function findCity(a, b, c) {
-  console.log(a, b, c);
   const [city] = await db('cities')
-    .select('*')
+    .select('id', 'name')
     .where('name', 'like', `%${a}%`)
     .orWhere('name', 'like', `%${b}%`)
     .orWhere('name', 'like', `%${c}%`)
@@ -47,14 +49,44 @@ async function findCity(a, b, c) {
   return city;
 }
 
+async function processCities(row) {
+  const a = row['area'];
+  const [b] = row['area'].split(' ');
+  const [c] = row['area'].split('/');
+  const city = await findCity(a, b, c);
+  if (city) row['city_id'] = city.id;
+  return row;
+}
+
+async function processGeo(row) {
+  const address = `${row['name']}, ${row['area']}, Lagos, Nigeria`;
+  try {
+    let results = await request(
+      `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${mapKey}`
+    );
+    results = JSON.parse(results).results;
+    if (results) {
+      const [result] = results;
+      if (result) {
+        console.log(result.formatted_address);
+        row.address = result.formatted_address;
+        row.latitude = result.geometry.location.lat;
+        row.longitude = result.geometry.location.lng;
+      }
+    }
+  } catch (error) {
+    console.log(error);
+  }
+  return row;
+}
+
 async function processData(data) {
   const processed = [];
-  for (const row of data) {
-    const a = row['area'];
-    const [b] = row['area'].split(' ');
-    const [c] = row['area'].split('/');
-    const city = await findCity(a, b, c);
-    if (city) row['city_id'] = city.id;
+  for (let row of data) {
+    // @todo: find a way to fix multiple
+    // awaits in loops :(
+    row = await processCities(row);
+    row = await processGeo(row);
     processed.push(row);
   }
   return processed;

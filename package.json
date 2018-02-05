@@ -33,7 +33,9 @@
     "koa-router": "^7.4.0",
     "lodash": "^4.17.4",
     "mysql": "^2.15.0",
-    "pg": "^7.4.1"
+    "pg": "^7.4.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
