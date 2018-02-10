@@ -9,7 +9,7 @@ Simple Node.js API to help people find locations to get PVCs and Vote in the upc
 5. Start server - `node app.js` or `nodemon app.js`
 
 ## Todo
-[] Documentation
+[ ] Documentation
+[ ] Tests
 [] Implement [Election Candidates feature](https://twitter.com/Itz_Matti/status/960340741871595523)
 [] Log all searches from clients
-[] Tests
