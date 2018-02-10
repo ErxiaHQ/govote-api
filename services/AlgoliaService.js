@@ -21,12 +21,11 @@ module.exports = {
 
   async searchLocations({ query, page, limit }) {
     page = page || 1;
-    page -= 1; // algolia pagination starting from 0
     limit = limit || 20;
     try {
       const content = await locationIndex.search({
         query,
-        page,
+        page: page - 1, // algolia pagination starting from 0
         hitsPerPage: limit
       });
       const locations = content.hits;
