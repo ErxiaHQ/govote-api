@@ -5,8 +5,7 @@ exports.up = (knex, Promise) =>
     table.string('name').notNullable();
     table
       .string('code')
-      .notNullable()
-      .unique();
+      .notNullable();
     table.text('description').nullable();
     table.float('latitude');
     table.float('longitude');

@@ -1,0 +1,433 @@
+1,25,"Festac","festac",NULL,NULL,NULL,NULL,NULL
+2,11,"Asaba","asaba",NULL,NULL,NULL,NULL,NULL
+3,13,"Benin","benin",NULL,NULL,NULL,NULL,NULL
+4,28,"Ijoko","ijoko",NULL,NULL,NULL,NULL,NULL
+5,4,"Ikot Abasi","ikot-abasi",NULL,NULL,NULL,NULL,NULL
+6,25,"Ogba","ogba",NULL,NULL,NULL,NULL,NULL
+7,1,"Aba","aba",NULL,NULL,NULL,NULL,NULL
+8,5,"Abagana","abagana",NULL,NULL,NULL,NULL,NULL
+9,2,"Abaji","abaji",NULL,NULL,NULL,NULL,NULL
+10,4,"Abak","abak",NULL,NULL,NULL,NULL,NULL
+11,12,"Abakaliki","abakaliki",NULL,NULL,NULL,NULL,NULL
+12,15,"Abakpa","abakpa",NULL,NULL,NULL,NULL,NULL
+13,4,"Abasi","abasi",NULL,NULL,NULL,NULL,NULL
+14,28,"Abeokuta","abeokuta",NULL,NULL,NULL,NULL,NULL
+15,15,"Abgani","abgani",NULL,NULL,NULL,NULL,NULL
+16,1,"Abia North","abia-north",NULL,NULL,NULL,NULL,NULL
+17,1,"Abia South","abia-south",NULL,NULL,NULL,NULL,NULL
+18,33,"Aboa/Odual","aboaodual",NULL,NULL,NULL,NULL,NULL
+19,11,"Abraka","abraka",NULL,NULL,NULL,NULL,NULL
+20,2,"Abuja","abuja",NULL,NULL,NULL,NULL,NULL
+21,25,"Abule Egba","abule-egba",NULL,NULL,NULL,NULL,NULL
+22,30,"Ada","ada",NULL,NULL,NULL,NULL,NULL
+23,10,"Adiabo","adiabo",NULL,NULL,NULL,NULL,NULL
+24,14,"Ado Ekiti","ado-ekiti",NULL,NULL,NULL,NULL,NULL
+25,12,"Afikpo","afikpo",NULL,NULL,NULL,NULL,NULL
+26,27,"Agaie","agaie",NULL,NULL,NULL,NULL,NULL
+27,25,"Agboju","agboju",NULL,NULL,NULL,NULL,NULL
+28,11,"Agbor","agbor",NULL,NULL,NULL,NULL,NULL
+29,25,"Agege","agege",NULL,NULL,NULL,NULL,NULL
+30,25,"Ago","ago",NULL,NULL,NULL,NULL,NULL
+31,28,"Ago Iwoye","ago-iwoye",NULL,NULL,NULL,NULL,NULL
+32,1,"Ahaba","ahaba",NULL,NULL,NULL,NULL,NULL
+33,25,"Ajah","ajah",NULL,NULL,NULL,NULL,NULL
+34,25,"Ajao Estate","ajao-estate",NULL,NULL,NULL,NULL,NULL
+35,25,"Ajegunle","ajegunle",NULL,NULL,NULL,NULL,NULL
+36,25,"Ajeromi-Ifelodun","ajeromi-ifelodun",NULL,NULL,NULL,NULL,NULL
+37,7,"Akenfa Town","akenfa-town",NULL,NULL,NULL,NULL,NULL
+38,25,"Akoka","akoka",NULL,NULL,NULL,NULL,NULL
+39,25,"Akowonjo","akowonjo",NULL,NULL,NULL,NULL,NULL
+40,23,"Akpafa","akpafa",NULL,NULL,NULL,NULL,NULL
+41,29,"Akure","akure",NULL,NULL,NULL,NULL,NULL
+42,28,"Akute","akute",NULL,NULL,NULL,NULL,NULL
+43,26,"Akwanga","akwanga",NULL,NULL,NULL,NULL,NULL
+44,25,"Alaba Oro","alaba-oro",NULL,NULL,NULL,NULL,NULL
+45,25,"Alagbado","alagbado",NULL,NULL,NULL,NULL,NULL
+46,22,"Aleiro","aleiro",NULL,NULL,NULL,NULL,NULL
+47,25,"Alimosho","alimosho",NULL,NULL,NULL,NULL,NULL
+48,7,"Amarata","amarata",NULL,NULL,NULL,NULL,NULL
+49,25,"Amukoko","amukoko",NULL,NULL,NULL,NULL,NULL
+50,25,"Amuwo-Odofin","amuwo-odofin",NULL,NULL,NULL,NULL,NULL
+51,32,"Anglo","anglo",NULL,NULL,NULL,NULL,NULL
+52,15,"Aninri","aninri",NULL,NULL,NULL,NULL,NULL
+53,23,"Ankpa","ankpa",NULL,NULL,NULL,NULL,NULL
+54,25,"Anthony","anthony",NULL,NULL,NULL,NULL,NULL
+55,23,"Anyingba","anyingba",NULL,NULL,NULL,NULL,NULL
+56,25,"Apapa","apapa",NULL,NULL,NULL,NULL,NULL
+57,22,"Argungu","argungu",NULL,NULL,NULL,NULL,NULL
+58,11,"Asaba","asaba",NULL,NULL,NULL,NULL,NULL
+59,2,"Asokoro","asokoro",NULL,NULL,NULL,NULL,NULL
+60,13,"Auchi","auchi",NULL,NULL,NULL,NULL,NULL
+61,15,"Awgu","awgu",NULL,NULL,NULL,NULL,NULL
+62,5,"Awka","awka",NULL,NULL,NULL,NULL,NULL
+63,5,"Awka North","awka-north",NULL,NULL,NULL,NULL,NULL
+64,5,"Awka South","awka-south",NULL,NULL,NULL,NULL,NULL
+65,15,"Awkunaw","awkunaw",NULL,NULL,NULL,NULL,NULL
+66,25,"Badagry","badagry",NULL,NULL,NULL,NULL,NULL
+67,20,"Bagwai","bagwai",NULL,NULL,NULL,NULL,NULL
+68,7,"Balga","balga",NULL,NULL,NULL,NULL,NULL
+69,35,"Bali","bali",NULL,NULL,NULL,NULL,NULL
+70,25,"Bariga","bariga",NULL,NULL,NULL,NULL,NULL
+71,19,"Barnawa","barnawa",NULL,NULL,NULL,NULL,NULL
+72,6,"Bauchi","bauchi",NULL,NULL,NULL,NULL,NULL
+73,13,"Benin","benin",NULL,NULL,NULL,NULL,NULL
+74,27,"Bida","bida",NULL,NULL,NULL,NULL,NULL
+75,7,"Biogbolo","biogbolo",NULL,NULL,NULL,NULL,NULL
+76,22,"Birnin Kebbi","birnin-kebbi",NULL,NULL,NULL,NULL,NULL
+77,2,"Bwari","bwari",NULL,NULL,NULL,NULL,NULL
+78,2,"cadastral zone","cadastral-zone",NULL,NULL,NULL,NULL,NULL
+79,10,"Calabar","calabar",NULL,NULL,NULL,NULL,NULL
+80,2,"Central Business District","central-business-district",NULL,NULL,NULL,NULL,NULL
+81,27,"Chanchaga","chanchaga",NULL,NULL,NULL,NULL,NULL
+82,19,"Chikun","chikun",NULL,NULL,NULL,NULL,NULL
+83,36,"Damaturu","damaturu",NULL,NULL,NULL,NULL,NULL
+84,18,"Dutse","dutse",NULL,NULL,NULL,NULL,NULL
+85,25,"Ebute Metta","ebute-metta",NULL,NULL,NULL,NULL,NULL
+86,30,"Ede","ede",NULL,NULL,NULL,NULL,NULL
+87,11,"Effurun","effurun",NULL,NULL,NULL,NULL,NULL
+88,14,"Efon","efon",NULL,NULL,NULL,NULL,NULL
+89,25,"Egbeda","egbeda",NULL,NULL,NULL,NULL,NULL
+90,13,"Egor","egor",NULL,NULL,NULL,NULL,NULL
+91,25,"Ejigbo","ejigbo",NULL,NULL,NULL,NULL,NULL
+92,7,"Ekeki","ekeki",NULL,NULL,NULL,NULL,NULL
+93,4,"Eket","eket",NULL,NULL,NULL,NULL,NULL
+94,1,"Eket","eket",NULL,NULL,NULL,NULL,NULL
+95,4,"Ekut","ekut",NULL,NULL,NULL,NULL,NULL
+96,15,"Enugu","enugu",NULL,NULL,NULL,NULL,NULL
+97,15,"Enugu East","enugu-east",NULL,NULL,NULL,NULL,NULL
+98,15,"Enugu North","enugu-north",NULL,NULL,NULL,NULL,NULL
+99,15,"Enugu South","enugu-south",NULL,NULL,NULL,NULL,NULL
+100,25,"Epe","epe",NULL,NULL,NULL,NULL,NULL
+101,7,"Epie","epie",NULL,NULL,NULL,NULL,NULL
+102,11,"Ethiope West","ethiope-west",NULL,NULL,NULL,NULL,NULL
+103,25,"Eti Osa","eti-osa",NULL,NULL,NULL,NULL,NULL
+104,13,"Etsako East","etsako-east",NULL,NULL,NULL,NULL,NULL
+105,28,"Ewekoro","ewekoro",NULL,NULL,NULL,NULL,NULL
+106,20,"Fagge","fagge",NULL,NULL,NULL,NULL,NULL
+107,25,"Festac","festac",NULL,NULL,NULL,NULL,NULL
+108,2,"Garki","garki",NULL,NULL,NULL,NULL,NULL
+109,2,"Garki 2","garki-2",NULL,NULL,NULL,NULL,NULL
+110,25,"Gbagada","gbagada",NULL,NULL,NULL,NULL,NULL
+111,16,"Gombe","gombe",NULL,NULL,NULL,NULL,NULL
+112,2,"Gudu","gudu",NULL,NULL,NULL,NULL,NULL
+113,37,"Gusau","gusau",NULL,NULL,NULL,NULL,NULL
+114,2,"Gwagwalada","gwagwalada",NULL,NULL,NULL,NULL,NULL
+115,2,"Gwarimpa","gwarimpa",NULL,NULL,NULL,NULL,NULL
+116,2,"Gwarinpa","gwarinpa",NULL,NULL,NULL,NULL,NULL
+117,25,"Iba","iba",NULL,NULL,NULL,NULL,NULL
+118,31,"Ibadan","ibadan",NULL,NULL,NULL,NULL,NULL
+119,31,"Ibadan South-East","ibadan-south-east",NULL,NULL,NULL,NULL,NULL
+120,25,"Ibeju-Lekki","ibeju-lekki",NULL,NULL,NULL,NULL,NULL
+121,4,"Ibeno","ibeno",NULL,NULL,NULL,NULL,NULL
+122,30,"Ibokun","ibokun",NULL,NULL,NULL,NULL,NULL
+123,23,"Idah","idah",NULL,NULL,NULL,NULL,NULL
+124,5,"Idemili North","idemili-north",NULL,NULL,NULL,NULL,NULL
+125,25,"Idimu","idimu",NULL,NULL,NULL,NULL,NULL
+126,25,"Ifako-Ijaiye","ifako-ijaiye",NULL,NULL,NULL,NULL,NULL
+127,28,"Ifo","ifo",NULL,NULL,NULL,NULL,NULL
+128,25,"Igando","igando",NULL,NULL,NULL,NULL,NULL
+129,7,"Igbogene Town","igbogene-town",NULL,NULL,NULL,NULL,NULL
+130,30,"Ijabe","ijabe",NULL,NULL,NULL,NULL,NULL
+131,28,"Ijebu Igbo","ijebu-igbo",NULL,NULL,NULL,NULL,NULL
+132,28,"Ijebu Ode","ijebu-ode",NULL,NULL,NULL,NULL,NULL
+133,28,"Ijoko","ijoko",NULL,NULL,NULL,NULL,NULL
+134,28,"Iju","iju",NULL,NULL,NULL,NULL,NULL
+135,25,"Ikeja","ikeja",NULL,NULL,NULL,NULL,NULL
+136,25,"Ikeja GRA","ikeja-gra",NULL,NULL,NULL,NULL,NULL
+137,4,"Ikem","ikem",NULL,NULL,NULL,NULL,NULL
+138,28,"Ikenne","ikenne",NULL,NULL,NULL,NULL,NULL
+139,14,"Ikere","ikere",NULL,NULL,NULL,NULL,NULL
+140,30,"Ikirun","ikirun",NULL,NULL,NULL,NULL,NULL
+141,14,"Ikogosi","ikogosi",NULL,NULL,NULL,NULL,NULL
+142,25,"Ikorodu","ikorodu",NULL,NULL,NULL,NULL,NULL
+143,4,"Ikot Abasi","ikot-abasi",NULL,NULL,NULL,NULL,NULL
+144,4,"Ikot Ekpene","ikot-ekpene",NULL,NULL,NULL,NULL,NULL
+145,4,"Ikot Obong","ikot-obong",NULL,NULL,NULL,NULL,NULL
+146,25,"Ikotun","ikotun",NULL,NULL,NULL,NULL,NULL
+147,25,"Ikoyi","ikoyi",NULL,NULL,NULL,NULL,NULL
+148,33,"Ikwerre","ikwerre",NULL,NULL,NULL,NULL,NULL
+149,30,"Ila","ila",NULL,NULL,NULL,NULL,NULL
+150,25,"Ilasamaja","ilasamaja",NULL,NULL,NULL,NULL,NULL
+151,30,"Ile-Ife","ile-ife",NULL,NULL,NULL,NULL,NULL
+152,30,"Ilesha","ilesha",NULL,NULL,NULL,NULL,NULL
+153,30,"Iloko-Ijesa","iloko-ijesa",NULL,NULL,NULL,NULL,NULL
+154,24,"Ilorin","ilorin",NULL,NULL,NULL,NULL,NULL
+155,25,"Ilupeju","ilupeju",NULL,NULL,NULL,NULL,NULL
+156,15,"Independence Layout","independence-layout",NULL,NULL,NULL,NULL,NULL
+157,4,"Ini","ini",NULL,NULL,NULL,NULL,NULL
+158,25,"Ipaja","ipaja",NULL,NULL,NULL,NULL,NULL
+159,28,"Iperu Remo,","iperu-remo,",NULL,NULL,NULL,NULL,NULL
+160,25,"Isheri","isheri",NULL,NULL,NULL,NULL,NULL
+161,28,"Isheri Olofin","isheri-olofin",NULL,NULL,NULL,NULL,NULL
+162,24,"Isin","isin",NULL,NULL,NULL,NULL,NULL
+163,11,"Isoko South","isoko-south",NULL,NULL,NULL,NULL,NULL
+164,25,"Isolo","isolo",NULL,NULL,NULL,NULL,NULL
+165,25,"Itire","itire",NULL,NULL,NULL,NULL,NULL
+166,4,"Itu","itu",NULL,NULL,NULL,NULL,NULL
+167,25,"Iyana-Ipaja","iyana-ipaja",NULL,NULL,NULL,NULL,NULL
+168,2,"Jabi","jabi",NULL,NULL,NULL,NULL,NULL
+169,35,"Jalingo","jalingo",NULL,NULL,NULL,NULL,NULL
+170,18,"Jigawa","jigawa",NULL,NULL,NULL,NULL,NULL
+171,3,"Jimeta","jimeta",NULL,NULL,NULL,NULL,NULL
+172,3,"Jimeta Yola","jimeta-yola",NULL,NULL,NULL,NULL,NULL
+173,32,"Jos","jos",NULL,NULL,NULL,NULL,NULL
+174,23,"Kabba","kabba",NULL,NULL,NULL,NULL,NULL
+175,2,"Kado","kado",NULL,NULL,NULL,NULL,NULL
+176,19,"Kaduna","kaduna",NULL,NULL,NULL,NULL,NULL
+177,19,"Kaduna North","kaduna-north",NULL,NULL,NULL,NULL,NULL
+178,19,"Kaduna south","kaduna-south",NULL,NULL,NULL,NULL,NULL
+179,20,"Kano","kano",NULL,NULL,NULL,NULL,NULL
+180,6,"Kari","kari",NULL,NULL,NULL,NULL,NULL
+181,26,"Karu","karu",NULL,NULL,NULL,NULL,NULL
+182,21,"Kastina","kastina",NULL,NULL,NULL,NULL,NULL
+183,2,"Katampe","katampe",NULL,NULL,NULL,NULL,NULL
+184,22,"Kebbi","kebbi",NULL,NULL,NULL,NULL,NULL
+185,25,"Ketu","ketu",NULL,NULL,NULL,NULL,NULL
+186,23,"Kogi","kogi",NULL,NULL,NULL,NULL,NULL
+187,26,"Koroduma","koroduma",NULL,NULL,NULL,NULL,NULL
+188,25,"Kosofe","kosofe",NULL,NULL,NULL,NULL,NULL
+189,7,"Kpansia Town","kpansia-town",NULL,NULL,NULL,NULL,NULL
+190,2,"Kubwa","kubwa",NULL,NULL,NULL,NULL,NULL
+191,26,"Kuchikau","kuchikau",NULL,NULL,NULL,NULL,NULL
+192,2,"Kuje","kuje",NULL,NULL,NULL,NULL,NULL
+193,26,"Lafia","lafia",NULL,NULL,NULL,NULL,NULL
+194,25,"Lagos Island","lagos-island",NULL,NULL,NULL,NULL,NULL
+195,25,"Lagos Mainland","lagos-mainland",NULL,NULL,NULL,NULL,NULL
+196,25,"Lekki","lekki",NULL,NULL,NULL,NULL,NULL
+197,25,"Lekki Phase 1","lekki-phase-1",NULL,NULL,NULL,NULL,NULL
+198,25,"Lekki phase 2","lekki-phase-2",NULL,NULL,NULL,NULL,NULL
+199,25,"Lekki-Ajah","lekki-ajah",NULL,NULL,NULL,NULL,NULL
+200,23,"Lokoja","lokoja",NULL,NULL,NULL,NULL,NULL
+201,2,"Lugbe","lugbe",NULL,NULL,NULL,NULL,NULL
+202,2,"Mabuchi","mabuchi",NULL,NULL,NULL,NULL,NULL
+203,25,"Magodo","magodo",NULL,NULL,NULL,NULL,NULL
+204,25,"Magodo GRA 2","magodo-gra-2",NULL,NULL,NULL,NULL,NULL
+205,9,"Maiduguri","maiduguri",NULL,NULL,NULL,NULL,NULL
+206,2,"Maitama","maitama",NULL,NULL,NULL,NULL,NULL
+207,19,"Malili","malili",NULL,NULL,NULL,NULL,NULL
+208,25,"Maryland","maryland",NULL,NULL,NULL,NULL,NULL
+209,25,"Meiran","meiran",NULL,NULL,NULL,NULL,NULL
+210,25,"Mile 12","mile-12",NULL,NULL,NULL,NULL,NULL
+211,27,"Minna","minna",NULL,NULL,NULL,NULL,NULL
+212,4,"Mkpat Enin","mkpat-enin",NULL,NULL,NULL,NULL,NULL
+213,27,"Mokwa","mokwa",NULL,NULL,NULL,NULL,NULL
+214,2,"Mpape","mpape",NULL,NULL,NULL,NULL,NULL
+215,25,"Mushin","mushin",NULL,NULL,NULL,NULL,NULL
+216,11,"Ndokwa West","ndokwa-west",NULL,NULL,NULL,NULL,NULL
+217,15,"New Heaven","new-heaven",NULL,NULL,NULL,NULL,NULL
+218,5,"Nkpor","nkpor",NULL,NULL,NULL,NULL,NULL
+219,5,"Nnewi","nnewi",NULL,NULL,NULL,NULL,NULL
+220,5,"Nnewi North","nnewi-north",NULL,NULL,NULL,NULL,NULL
+221,5,"Nnewi South","nnewi-south",NULL,NULL,NULL,NULL,NULL
+222,4,"no name","no-name",NULL,NULL,NULL,NULL,NULL
+223,15,"Nsukka","nsukka",NULL,NULL,NULL,NULL,NULL
+224,2,"Nyanya","nyanya",NULL,NULL,NULL,NULL,NULL
+225,5,"Oba","oba",NULL,NULL,NULL,NULL,NULL
+226,25,"Obanikoro","obanikoro",NULL,NULL,NULL,NULL,NULL
+227,33,"Obio-Akpor","obio-akpor",NULL,NULL,NULL,NULL,NULL
+228,1,"Obioma Ngwa","obioma-ngwa",NULL,NULL,NULL,NULL,NULL
+229,5,"Obosi","obosi",NULL,NULL,NULL,NULL,NULL
+230,10,"Obudu","obudu",NULL,NULL,NULL,NULL,NULL
+231,10,"Odukpani","odukpani",NULL,NULL,NULL,NULL,NULL
+232,24,"Offa","offa",NULL,NULL,NULL,NULL,NULL
+233,25,"Ogba","ogba",NULL,NULL,NULL,NULL,NULL
+234,7,"Ogbia","ogbia",NULL,NULL,NULL,NULL,NULL
+235,31,"Ogbomosho","ogbomosho",NULL,NULL,NULL,NULL,NULL
+236,11,"Oghara","oghara",NULL,NULL,NULL,NULL,NULL
+237,28,"Ogun","ogun",NULL,NULL,NULL,NULL,NULL
+238,25,"Ojo","ojo",NULL,NULL,NULL,NULL,NULL
+239,25,"Ojodu","ojodu",NULL,NULL,NULL,NULL,NULL
+240,25,"Ojota","ojota",NULL,NULL,NULL,NULL,NULL
+241,25,"Ojuelegba","ojuelegba",NULL,NULL,NULL,NULL,NULL
+242,23,"Okene","okene",NULL,NULL,NULL,NULL,NULL
+243,17,"Okigwe","okigwe",NULL,NULL,NULL,NULL,NULL
+244,29,"Okitipupa","okitipupa",NULL,NULL,NULL,NULL,NULL
+245,4,"Okobo","okobo",NULL,NULL,NULL,NULL,NULL
+246,25,"Okokomaiko","okokomaiko",NULL,NULL,NULL,NULL,NULL
+247,25,"Okota","okota",NULL,NULL,NULL,NULL,NULL
+248,7,"Okpoama","okpoama",NULL,NULL,NULL,NULL,NULL
+249,12,"Okposi","okposi",NULL,NULL,NULL,NULL,NULL
+250,30,"Okuku","okuku",NULL,NULL,NULL,NULL,NULL
+251,25,"Onike","onike",NULL,NULL,NULL,NULL,NULL
+252,5,"Onitsha","onitsha",NULL,NULL,NULL,NULL,NULL
+253,5,"Onitsha North","onitsha-north",NULL,NULL,NULL,NULL,NULL
+254,5,"Onitsha South","onitsha-south",NULL,NULL,NULL,NULL,NULL
+255,33,"Opobo/Nkoro","opobonkoro",NULL,NULL,NULL,NULL,NULL
+256,13,"Oredo","oredo",NULL,NULL,NULL,NULL,NULL
+257,25,"Orile","orile",NULL,NULL,NULL,NULL,NULL
+258,17,"Orji","orji",NULL,NULL,NULL,NULL,NULL
+259,17,"Orlu","orlu",NULL,NULL,NULL,NULL,NULL
+260,4,"Oron","oron",NULL,NULL,NULL,NULL,NULL
+261,11,"Oshimili South","oshimili-south",NULL,NULL,NULL,NULL,NULL
+262,25,"Oshodi","oshodi",NULL,NULL,NULL,NULL,NULL
+263,25,"Oshodi-Isolo","oshodi-isolo",NULL,NULL,NULL,NULL,NULL
+264,30,"Oshogbo","oshogbo",NULL,NULL,NULL,NULL,NULL
+265,1,"Osisioma","osisioma",NULL,NULL,NULL,NULL,NULL
+266,30,"Osogbo","osogbo",NULL,NULL,NULL,NULL,NULL
+267,28,"Ota","ota",NULL,NULL,NULL,NULL,NULL
+268,7,"Ovon","ovon",NULL,NULL,NULL,NULL,NULL
+269,11,"Ovwian","ovwian",NULL,NULL,NULL,NULL,NULL
+270,17,"Owerri","owerri",NULL,NULL,NULL,NULL,NULL
+271,29,"Owo","owo",NULL,NULL,NULL,NULL,NULL
+272,33,"Oyigbo","oyigbo",NULL,NULL,NULL,NULL,NULL
+273,25,"Palmgrove","palmgrove",NULL,NULL,NULL,NULL,NULL
+274,33,"Port Harcourt","port-harcourt",NULL,NULL,NULL,NULL,NULL
+275,19,"Sabon Gari","sabon-gari",NULL,NULL,NULL,NULL,NULL
+276,28,"Sagamu","sagamu",NULL,NULL,NULL,NULL,NULL
+277,28,"Sango Ota","sango-ota",NULL,NULL,NULL,NULL,NULL
+278,11,"Sapele","sapele",NULL,NULL,NULL,NULL,NULL
+279,25,"Satellite Town","satellite-town",NULL,NULL,NULL,NULL,NULL
+280,25,"Shomolu","shomolu",NULL,NULL,NULL,NULL,NULL
+281,34,"Sokoto","sokoto",NULL,NULL,NULL,NULL,NULL
+282,20,"State","state",NULL,NULL,NULL,NULL,NULL
+283,27,"Suleja","suleja",NULL,NULL,NULL,NULL,NULL
+284,25,"Surulere","surulere",NULL,NULL,NULL,NULL,NULL
+285,35,"Taraba","taraba",NULL,NULL,NULL,NULL,NULL
+286,15,"Trans Ekulu","trans-ekulu",NULL,NULL,NULL,NULL,NULL
+287,15,"Udi","udi",NULL,NULL,NULL,NULL,NULL
+288,11,"Ughelli North","ughelli-north",NULL,NULL,NULL,NULL,NULL
+289,13,"Uhunmwonde","uhunmwonde",NULL,NULL,NULL,NULL,NULL
+290,4,"Ukanafun","ukanafun",NULL,NULL,NULL,NULL,NULL
+291,1,"Ukwa","ukwa",NULL,NULL,NULL,NULL,NULL
+292,1,"Umuahia","umuahia",NULL,NULL,NULL,NULL,NULL
+293,2,"Utako","utako",NULL,NULL,NULL,NULL,NULL
+294,1,"Uturu","uturu",NULL,NULL,NULL,NULL,NULL
+295,11,"Uvwie","uvwie",NULL,NULL,NULL,NULL,NULL
+296,4,"Uyo","uyo",NULL,NULL,NULL,NULL,NULL
+297,25,"Victoria Garden City","victoria-garden-city",NULL,NULL,NULL,NULL,NULL
+298,25,"Victoria Island","victoria-island",NULL,NULL,NULL,NULL,NULL
+299,11,"Warri","warri",NULL,NULL,NULL,NULL,NULL
+300,35,"Wukari","wukari",NULL,NULL,NULL,NULL,NULL
+301,2,"Wuse","wuse",NULL,NULL,NULL,NULL,NULL
+302,2,"Wuse 2","wuse-2",NULL,NULL,NULL,NULL,NULL
+303,2,"Wuse 4","wuse-4",NULL,NULL,NULL,NULL,NULL
+304,2,"Wuse 5","wuse-5",NULL,NULL,NULL,NULL,NULL
+305,2,"Wuse 6","wuse-6",NULL,NULL,NULL,NULL,NULL
+306,2,"Wuse Zone  2","wuse-zone--2",NULL,NULL,NULL,NULL,NULL
+307,2,"Wuse Zone 1","wuse-zone-1",NULL,NULL,NULL,NULL,NULL
+308,2,"Wuse Zone 2","wuse-zone-2",NULL,NULL,NULL,NULL,NULL
+309,2,"Wuse Zone 3","wuse-zone-3",NULL,NULL,NULL,NULL,NULL
+310,2,"Wuse Zone 4","wuse-zone-4",NULL,NULL,NULL,NULL,NULL
+311,2,"Wuse Zone 5","wuse-zone-5",NULL,NULL,NULL,NULL,NULL
+312,2,"Wuse Zone 6","wuse-zone-6",NULL,NULL,NULL,NULL,NULL
+313,2,"Wuse zone 7","wuse-zone-7",NULL,NULL,NULL,NULL,NULL
+314,2,"Wuse Zone II","wuse-zone-ii",NULL,NULL,NULL,NULL,NULL
+315,2,"Wuye","wuye",NULL,NULL,NULL,NULL,NULL
+316,25,"Yaba","yaba",NULL,NULL,NULL,NULL,NULL
+317,7,"Yenagoa","yenagoa",NULL,NULL,NULL,NULL,NULL
+318,7,"Yenizue-Gene","yenizue-gene",NULL,NULL,NULL,NULL,NULL
+319,3,"Yola","yola",NULL,NULL,NULL,NULL,NULL
+320,19,"Zaria","zaria",NULL,NULL,NULL,NULL,NULL
+502,25,"Agbara","agbara",NULL,NULL,NULL,NULL,NULL
+503,14,"Ado-Ikere","ado-ikere",NULL,NULL,NULL,NULL,NULL
+504,25,"Ekoro","ekoro",NULL,NULL,NULL,NULL,NULL
+505,15,"Gariki","gariki",NULL,NULL,NULL,NULL,NULL
+506,2,"Gbagslape","gbagslape",NULL,NULL,NULL,NULL,NULL
+507,14,"Igede","igede",NULL,NULL,NULL,NULL,NULL
+508,5,"Ihiala","ihiala",NULL,NULL,NULL,NULL,NULL
+509,14,"Ikole","ikole",NULL,NULL,NULL,NULL,NULL
+510,4,"Ikot Akpa Etok","ikot-akpa-etok",NULL,NULL,NULL,NULL,NULL
+511,14,"Ilupeju","ilupeju",NULL,NULL,NULL,NULL,NULL
+512,14,"Itapa","itapa",NULL,NULL,NULL,NULL,NULL
+513,2,"Jikwoyi","jikwoyi",NULL,NULL,NULL,NULL,NULL
+514,2,"Muko Dutse","muko-dutse",NULL,NULL,NULL,NULL,NULL
+515,2,"Zone 1 Extension","zone-1-extension",NULL,NULL,NULL,NULL,NULL
+516,2,"Karmu","karmu",NULL,NULL,NULL,NULL,NULL
+517,8,"Adikpo","adikpo",NULL,NULL,NULL,NULL,NULL
+518,4,"Afaha Ibesikpo","afaha-ibesikpo",NULL,NULL,NULL,NULL,NULL
+519,25,"Agbado Ijaye","agbado-ijaye",NULL,NULL,NULL,NULL,NULL
+520,11,"Agbarho","agbarho",NULL,NULL,NULL,NULL,NULL
+521,14,"Aisegba","aisegba",NULL,NULL,NULL,NULL,NULL
+522,14,"Aiyegbaju","aiyegbaju",NULL,NULL,NULL,NULL,NULL
+523,4,"Aka Offot","aka-offot",NULL,NULL,NULL,NULL,NULL
+524,25,"Amuwo Odofin","amuwo-odofin",NULL,NULL,NULL,NULL,NULL
+525,11,"Aniocha","aniocha",NULL,NULL,NULL,NULL,NULL
+526,14,"Aramoko","aramoko",NULL,NULL,NULL,NULL,NULL
+527,25,"Arida Ikotu","arida-ikotu",NULL,NULL,NULL,NULL,NULL
+528,15,"Asata","asata",NULL,NULL,NULL,NULL,NULL
+529,14,"Ayetoro-Ekiti","ayetoro-ekiti",NULL,NULL,NULL,NULL,NULL
+530,25,"Ayobo","ayobo",NULL,NULL,NULL,NULL,NULL
+531,11,"Bomadi","bomadi",NULL,NULL,NULL,NULL,NULL
+532,16,"Capital City","capital-city",NULL,NULL,NULL,NULL,NULL
+533,4,"Ediene","ediene",NULL,NULL,NULL,NULL,NULL
+534,14,"Efon-Alaaye","efon-alaaye",NULL,NULL,NULL,NULL,NULL
+535,25,"Egbe","egbe",NULL,NULL,NULL,NULL,NULL
+536,4,"Ekom Iman","ekom-iman",NULL,NULL,NULL,NULL,NULL
+537,15,"Emene","emene",NULL,NULL,NULL,NULL,NULL
+538,11,"Ethiope","ethiope",NULL,NULL,NULL,NULL,NULL
+539,25,"Fagba","fagba",NULL,NULL,NULL,NULL,NULL
+540,5,"Harbour Industrial Layout","harbour-industrial-layout",NULL,NULL,NULL,NULL,NULL
+541,1,"Ibeke","ibeke",NULL,NULL,NULL,NULL,NULL
+542,14,"Ido-Ekiti","ido-ekiti",NULL,NULL,NULL,NULL,NULL
+543,14,"Ifaki Ekiti","ifaki-ekiti",NULL,NULL,NULL,NULL,NULL
+544,25,"Iganmu","iganmu",NULL,NULL,NULL,NULL,NULL
+545,14,"Igbemo Ekiti","igbemo-ekiti",NULL,NULL,NULL,NULL,NULL
+546,25,"Igbogbo","igbogbo",NULL,NULL,NULL,NULL,NULL
+547,14,"Igede","igede",NULL,NULL,NULL,NULL,NULL
+548,25,"Ijanikin","ijanikin",NULL,NULL,NULL,NULL,NULL
+549,25,"Ijede","ijede",NULL,NULL,NULL,NULL,NULL
+550,25,"Ijegun","ijegun",NULL,NULL,NULL,NULL,NULL
+551,25,"Iju Ishaga","iju-ishaga",NULL,NULL,NULL,NULL,NULL
+552,5,"Ika","ika",NULL,NULL,NULL,NULL,NULL
+553,4,"Ikot Asua","ikot-asua",NULL,NULL,NULL,NULL,NULL
+554,4,"Ikot Ekpuk","ikot-ekpuk",NULL,NULL,NULL,NULL,NULL
+555,14,"Ilawe","ilawe",NULL,NULL,NULL,NULL,NULL
+556,25,"Ilogbo Eremi","ilogbo-eremi",NULL,NULL,NULL,NULL,NULL
+557,14,"Iluomoba","iluomoba",NULL,NULL,NULL,NULL,NULL
+558,25,"Imota","imota",NULL,NULL,NULL,NULL,NULL
+559,25,"Isashi","isashi",NULL,NULL,NULL,NULL,NULL
+560,11,"Isiokolo","isiokolo",NULL,NULL,NULL,NULL,NULL
+561,11,"Isoko","isoko",NULL,NULL,NULL,NULL,NULL
+562,11,"Issele-Uku","issele-uku",NULL,NULL,NULL,NULL,NULL
+563,14,"Iworoko","iworoko",NULL,NULL,NULL,NULL,NULL
+564,14,"Iyin","iyin",NULL,NULL,NULL,NULL,NULL
+565,37,"Kaura Namoda","kaura-namoda",NULL,NULL,NULL,NULL,NULL
+566,25,"Ketu-Alapere","ketu-alapere",NULL,NULL,NULL,NULL,NULL
+567,2,"Kurudu","kurudu",NULL,NULL,NULL,NULL,NULL
+568,2,"Madalla","madalla",NULL,NULL,NULL,NULL,NULL
+569,2,"Mararaba","mararaba",NULL,NULL,NULL,NULL,NULL
+570,4,"Mbak Itam","mbak-itam",NULL,NULL,NULL,NULL,NULL
+571,15,"Mgbowo","mgbowo",NULL,NULL,NULL,NULL,NULL
+572,11,"Ndokwa","ndokwa",NULL,NULL,NULL,NULL,NULL
+573,15,"New Haven","new-haven",NULL,NULL,NULL,NULL,NULL
+574,5,"Nkwelle Ezunaka","nkwelle-ezunaka",NULL,NULL,NULL,NULL,NULL
+575,4,"Nung Oku","nung-oku",NULL,NULL,NULL,NULL,NULL
+576,11,"Obiaruku","obiaruku",NULL,NULL,NULL,NULL,NULL
+577,14,"Odo Ayedun","odo-ayedun",NULL,NULL,NULL,NULL,NULL
+578,14,"Odo Owa","odo-owa",NULL,NULL,NULL,NULL,NULL
+579,5,"Ogidi","ogidi",NULL,NULL,NULL,NULL,NULL
+580,25,"Ojokoro","ojokoro",NULL,NULL,NULL,NULL,NULL
+581,14,"Oke Ekiti","oke-ekiti",NULL,NULL,NULL,NULL,NULL
+582,25,"Oke Odo","oke-odo",NULL,NULL,NULL,NULL,NULL
+583,25,"Oke-aro","oke-aro",NULL,NULL,NULL,NULL,NULL
+584,29,"Okeagbe","okeagbe",NULL,NULL,NULL,NULL,NULL
+585,5,"Okija","okija",NULL,NULL,NULL,NULL,NULL
+586,25,"Oko-Afo","oko-afo",NULL,NULL,NULL,NULL,NULL
+587,11,"Okpe","okpe",NULL,NULL,NULL,NULL,NULL
+588,2,"Old Karu","old-karu",NULL,NULL,NULL,NULL,NULL
+589,11,"Olomoro","olomoro",NULL,NULL,NULL,NULL,NULL
+590,33,"Omoku","omoku",NULL,NULL,NULL,NULL,NULL
+591,5,"Onitsha, Fegge","onitsha,-fegge",NULL,NULL,NULL,NULL,NULL
+592,11,"Orhuwhorun","orhuwhorun",NULL,NULL,NULL,NULL,NULL
+593,25,"Orile Agege","orile-agege",NULL,NULL,NULL,NULL,NULL
+594,2,"Orozo","orozo",NULL,NULL,NULL,NULL,NULL
+595,14,"Otun","otun",NULL,NULL,NULL,NULL,NULL
+596,25,"Oyingbo","oyingbo",NULL,NULL,NULL,NULL,NULL
+597,25,"Sangotedo","sangotedo",NULL,NULL,NULL,NULL,NULL
+598,25,"Somolu","somolu",NULL,NULL,NULL,NULL,NULL
+599,15,"Thinkers Corner","thinkers-corner",NULL,NULL,NULL,NULL,NULL
+600,15,"Thinkers Corner Layout","thinkers-corner-layout",NULL,NULL,NULL,NULL,NULL
+601,11,"Udu","udu",NULL,NULL,NULL,NULL,NULL
+602,15,"Ugwuaji","ugwuaji",NULL,NULL,NULL,NULL,NULL
+603,11,"Ukwuani","ukwuani",NULL,NULL,NULL,NULL,NULL
+604,14,"Usin, Ekiti","usin,-ekiti",NULL,NULL,NULL,NULL,NULL
+605,5,"Woliwu Layout, Onitsha","woliwu-layout,-onitsha",NULL,NULL,NULL,NULL,NULL
+606,5,"Wosponira layout, Onitsha","wosponira-layout,-onitsha",NULL,NULL,NULL,NULL,NULL
+607,2,"Wuse 1","wuse-1",NULL,NULL,NULL,NULL,NULL
+608,28,"Yewa South","yewa-south",NULL,NULL,NULL,NULL,NULL
+609,8,"Zaki Biam","zaki-biam",NULL,NULL,NULL,NULL,NULL
+610,2,"Wuse 7","wuse-7",NULL,NULL,NULL,NULL,NULL
+611,28,"Ado Odo Ota","ado-odo-ota",NULL,NULL,NULL,NULL,NULL
+612,8,"Makurdi","makurdi",NULL,NULL,NULL,NULL,NULL
+613,28,"Ilishan","ilishan",NULL,NULL,NULL,NULL,NULL
+614,15,"Nike Lake","nike-lake",NULL,NULL,NULL,NULL,NULL
