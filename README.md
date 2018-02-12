@@ -16,6 +16,5 @@ To run locally, you would need the following installed:
 ## Todo
 - Documentation
 - Tests
-- Add seed data for all states in Nigeria
 - Implement [Election Candidates feature](https://twitter.com/Itz_Matti/status/960340741871595523)
 - Log all searches from clients
