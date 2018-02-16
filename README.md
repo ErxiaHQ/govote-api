@@ -19,3 +19,9 @@ To run locally, you would need the following installed:
 - Add seed data for all states in Nigeria
 - Implement [Election Candidates feature](https://twitter.com/Itz_Matti/status/960340741871595523)
 - Log all searches from clients
+
+## Contributing
+
+The #1 contribution you could make is to share, and tell people about govote.
+
+View the [Contribution Guide](https://github.com/ErxiaHQ/govote-api/blob/master/CONTRIBUTING.md) for how to contribute.
