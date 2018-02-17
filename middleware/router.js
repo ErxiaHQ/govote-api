@@ -2,6 +2,7 @@ const Router = require('koa-router');
 const searchController = require('../controllers/SearchController');
 const locationController = require('../controllers/LocationController');
 
+require('dotenv').config();
 const router = new Router();
 
 // @todo
