@@ -5,8 +5,6 @@ const expect = chai.expect;
 // import location model
 const { Location } = require('../../models/Location');
 
-// should be testing for colums and shii
-// clear db after test
 describe('Location model test', function () {
   const location = new Location({
     id: '1',

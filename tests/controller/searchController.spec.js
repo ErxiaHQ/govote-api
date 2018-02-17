@@ -9,13 +9,6 @@ chai.use(chaiHttp);
 const expect = chai.expect;
 
 describe('Search Controller', function () {
-  // before((done) => {
-  //   // runs before all tests in this block
-  // });
-  // after((done) => {
-  //   // clear db
-  // });
-
   it('search method returns an error if search query is missing', (done) => {
     chai.request(app)
       .get('/search?key=opensource')

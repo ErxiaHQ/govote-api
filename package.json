@@ -4,8 +4,8 @@
   "description": "Open access API for the 2019 Nigerian elections",
   "main": "app.js",
   "scripts": {
-    "pretest": "node_modules/.bin/knex migrate:latest",
-    "test": "nyc mocha tests/**/*.spec.js --exit",
+    "pretest": "NODE_ENV=test node_modules/.bin/knex migrate:latest && NODE_ENV=test node_modules/.bin/knex seed:run",
+    "test": "NODE_ENV=test nyc mocha tests/**/*.spec.js --exit",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
