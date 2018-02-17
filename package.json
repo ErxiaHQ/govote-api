@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "pretest": "node_modules/.bin/knex migrate:latest",
-    "test": "mocha tests/**/*.spec.js --exit",
+    "test": "nyc mocha tests/**/*.spec.js --exit",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
@@ -48,6 +48,7 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "sinon": "^4.3.0"
+    "istanbul": "^0.4.5",
+    "nyc": "^11.4.1"
   }
 }
