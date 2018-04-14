@@ -98,7 +98,7 @@ module.exports = {
       if (!location.id) {
         return ctx.abortJson({}, `Location with ID: ${id} does not exist`);
       }
-      await location.delete();
+      await location.destroy();
       ctx.sendJson(location, `Location with ID: ${id} deleted`);
     } catch (error) {
       ctx.abortJson(error, `Error deleting location with ID: ${id}`);

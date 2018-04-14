@@ -2,6 +2,7 @@ const Router = require('koa-router');
 const searchController = require('../controllers/SearchController');
 const locationController = require('../controllers/LocationController');
 
+require('dotenv').config();
 const router = new Router();
 
 // @todo
@@ -9,7 +10,7 @@ const router = new Router();
 // check if permitted request
 const { API_KEYS } = process.env;
 const allowedKeys = API_KEYS ? API_KEYS.split(',') : [];
-router.use(async (ctx, next) => {
+router.use(async function (ctx, next) {
   const { key } = ctx.query;
   if (!allowedKeys.includes(key)) {
     const error = 'Invalid API key';

@@ -1,4 +1,5 @@
 // Update with your config settings.
+require('dotenv').config();
 
 module.exports = {
   development: {
@@ -9,6 +10,24 @@ module.exports = {
       user: process.env.DB_USER,
       password: process.env.DB_PASS,
       database: process.env.DB_NAME,
+      port: process.env.DB_PORT
+    },
+    migrations: {
+      directory: './db/migrations'
+    },
+    seeds: {
+      directory: './db/seeds'
+    }
+  },
+
+  test: {
+    client: 'mysql',
+    debug: false,
+    connection: {
+      host: process.env.DB_HOST,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASS,
+      database: process.env.DB_TEST_NAME,
       port: process.env.DB_PORT
     },
     migrations: {
