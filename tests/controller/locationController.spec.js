@@ -11,12 +11,7 @@ const knex = require('../../db/db');
 chai.use(chaiHttp);
 const expect = chai.expect;
 
-// ensure you have a test database setup. Database is cleaned up after the test
-
-describe('Location Controller', function () {
-  // before((done) => {
-  //   // runs before all tests in this block
-  // });
+describe('Location Controller', () => {
   after((done) => {
     // clear db
     knex.raw(`DROP DATABASE ${process.env.DB_NAME};`)
@@ -77,7 +72,6 @@ describe('Location Controller', function () {
         expect(res.body).to.have.own.property('message');
         expect(res.body).to.have.own.property('data');
         expect(res.body.message).equals('Location with ID: 1 retrieved');
-        // expect(res.body.data.name).equals('Ikeja High School.');
         done();
       });
   });
@@ -116,7 +110,7 @@ describe('Location Controller', function () {
         state_id: 25
       })
       .end((err, res) => {
-        if (err) {}
+        if (err) { }
         expect(res).to.have.status(400);
         expect(res.error.text).equals('{"message":"Location with ID: x does not exist","data":{}}');
         done();
@@ -128,7 +122,7 @@ describe('Location Controller', function () {
       .del('/location/1?key=opensource')
       .type('form')
       .end((err, res) => {
-        if (err) {}
+        if (err) { }
         expect(res).to.have.status(200);
         expect(res.body).to.have.own.property('message');
         expect(res.body).to.have.own.property('data');
